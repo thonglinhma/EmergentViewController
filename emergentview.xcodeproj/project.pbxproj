@@ -18,7 +18,8 @@
 		1410B40E1757412B004A7229 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1410B40D1757412B004A7229 /* Default-568h@2x.png */; };
 		1410B4111757412B004A7229 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1410B40F1757412B004A7229 /* MainStoryboard_iPhone.storyboard */; };
 		1410B4141757412B004A7229 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1410B4121757412B004A7229 /* MainStoryboard_iPad.storyboard */; };
-		1410B4171757412B004A7229 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1410B4161757412B004A7229 /* ViewController.m */; };
+		1410B4171757412B004A7229 /* EmergentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1410B4161757412B004A7229 /* EmergentViewController.m */; };
+		1410B422175749A6004A7229 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1410B421175749A6004A7229 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,8 +38,10 @@
 		1410B40D1757412B004A7229 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1410B4101757412B004A7229 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		1410B4131757412B004A7229 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		1410B4151757412B004A7229 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1410B4161757412B004A7229 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1410B4151757412B004A7229 /* EmergentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmergentViewController.h; sourceTree = "<group>"; };
+		1410B4161757412B004A7229 /* EmergentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmergentViewController.m; sourceTree = "<group>"; };
+		1410B420175749A6004A7229 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1410B421175749A6004A7229 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +92,10 @@
 				1410B4071757412A004A7229 /* AppDelegate.m */,
 				1410B40F1757412B004A7229 /* MainStoryboard_iPhone.storyboard */,
 				1410B4121757412B004A7229 /* MainStoryboard_iPad.storyboard */,
-				1410B4151757412B004A7229 /* ViewController.h */,
-				1410B4161757412B004A7229 /* ViewController.m */,
+				1410B420175749A6004A7229 /* ViewController.h */,
+				1410B421175749A6004A7229 /* ViewController.m */,
+				1410B4151757412B004A7229 /* EmergentViewController.h */,
+				1410B4161757412B004A7229 /* EmergentViewController.m */,
 				1410B3FE1757412A004A7229 /* Supporting Files */,
 			);
 			path = emergentview;
@@ -178,7 +183,8 @@
 			files = (
 				1410B4041757412A004A7229 /* main.m in Sources */,
 				1410B4081757412A004A7229 /* AppDelegate.m in Sources */,
-				1410B4171757412B004A7229 /* ViewController.m in Sources */,
+				1410B4171757412B004A7229 /* EmergentViewController.m in Sources */,
+				1410B422175749A6004A7229 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
